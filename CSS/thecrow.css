@@ -1,0 +1,56 @@
+html{
+    min-width: 100%
+}
+
+.all {
+    background-image: url(/images/TheCrow/crow-1002849_1280.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 30px 30px outset;
+    border-top: 10px solid #B0893B;
+        border-right: 10px solid #5C471E;
+        border-bottom: 10px solid #5C471E;
+        border-left: 10px solid #B0893B;
+    padding: 10px 10px;
+}
+
+.poem, .info {
+font-size: 20px;
+font-weight: 900;
+font-family: serif, sans-serif;
+}
+
+.autor{
+    text-align: center;
+}
+h1{
+    color: #F4C76C;
+}
+h3{
+    color: #322A1A;
+}
+.poem {
+    text-indent: 2em;
+    color: white;
+    display: block;
+    width: fit-content;
+}
+
+.info {
+    border-top: double 10px #F4C76C;
+    color: #F4C76C;;
+    border-width: 100%;
+}
+
+#source {
+    color: black;
+}
+
+.quote{
+    letter-spacing: 2px;
+}
+
+u{
+    text-decoration: none;
+    border-bottom: 3px solid orange;
+}
