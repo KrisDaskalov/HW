@@ -3,7 +3,7 @@ html{
 }
 
 .all {
-    background-image: url(../images/TheCrow/crow-1002849_1280.jpg);
+    background-image: url(./images/TheCrow/crow-1002849_1280.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     border: 30px 30px outset;
