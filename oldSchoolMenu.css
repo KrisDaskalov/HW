@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+}
+
+body {
+  /* margin-left: auto;
+  margin-right: auto; */
+
+  margin: auto;
+  box-sizing: border-box;
+}
+
+nav {
+  width: 100%;
+  justify-content: center;
+  background-color: grey;
+  display: flex;
+}
+
+.element {
+  background-color: orange;
+  margin: 2em 2em;
+  padding: 1em 2em;
+}
+
+@media screen and (max-width: 750px) {
+  body {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  nav {
+    width: auto;
+  }
+  .element {
+    margin: 1em 1em;
+    padding: 0.5em 1em;
+    /* margin: 0.3em 0.3em;
+    padding: 0.1em 0.1em; */
+  }
+}
+
+.home {
+  border-style: double;
+  border: 5px solid blue;
+  outline: 5px outset red;
+}
+
+.about {
+  border-style: double;
+  border: 5px solid blue;
+  outline: 5px inset red;
+}
+.menu {
+  border-style: double;
+  border: 5px solid blue;
+  outline: 5px ridge red;
+}
+.gallery {
+  border-style: double;
+  border: 5px solid blue;
+  outline: 5px groove red;
+}
+.contact {
+  border-style: double;
+  border: 5px solid blue;
+  outline: 5px dashed red;
+}
+
+a {
+  color: rgb(31, 177, 177);
+}
